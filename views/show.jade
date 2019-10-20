@@ -1,0 +1,8 @@
+extends layout
+
+block content
+   .post
+    h1=post.title
+    p.meta Posted in #{post.category} by #{post.author} on #{moment(post.date.format).format("DD-MM-YYYY")}
+    img(src='/images/#{post.mainimage}')
+    !=post.body
