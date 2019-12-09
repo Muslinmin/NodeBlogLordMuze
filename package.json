@@ -6,6 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "connect-flash": "*",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
@@ -19,6 +20,8 @@
     "mongodb": "^3.3.3",
     "monk": "*",
     "morgan": "~1.9.1",
-    "multer": "*"
+    "multer": "*",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
   }
 }

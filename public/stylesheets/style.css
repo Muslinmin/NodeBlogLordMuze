@@ -141,5 +141,8 @@ ul.error li{
   color: #2d3436;
 
   margin-top: 1em;
+  border-color: red;
+  border-width: 1px;
+  border-style: solid;
 
 }
